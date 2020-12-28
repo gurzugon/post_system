@@ -138,13 +138,13 @@ if(isset($_POST['add']))
  
 
       $destination = urlencode($_POST["matrix"]);
-      $message = $_POST['name'].$_POST['track']." Anda telah menerima surat, boleh diambil di kaunter KHAR";
+      $message = $_POST['name'].$_POST['track']."Your message to customer";
       $message = html_entity_decode($message, ENT_QUOTES, 'utf-8'); 
       $message = urlencode($message);
       
-      $username = urlencode("afiqsalehin");
-      $password = urlencode("afiqsalehin1234");
-      $sender_id = urlencode("66300");
+      $username = urlencode("usernama");
+      $password = urlencode("pass");
+      $sender_id = urlencode("");
       $type = 1;
 
       $fp = "http://www.isms.com.my/isms_send.php";
