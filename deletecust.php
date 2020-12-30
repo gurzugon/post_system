@@ -6,6 +6,7 @@ include ('../config.php');
 	{
 		echo "<script language=javascript>alert('DELETE SUCCESS');
 		window.location='customer.php';</script>";
+		
 	}
 	else
 	{
