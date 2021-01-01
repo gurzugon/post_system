@@ -135,7 +135,7 @@ if(isset($_POST['edit']))
 	if($result_edit = mysqli_query($conn, $sql_edit))
 	{
 		move_uploaded_file($_FILES['picture']['tmp_name'], $target);
-		echo "<script language=javascript>alert('SUCCESS');
+		echo "<script language=javascript>alert('Success Update Customer');
 		window.location='customerstaff.php';</script>";
 	}
 	else
