@@ -135,15 +135,13 @@ if(isset($_POST['add']))
       return $http_result;
      }
 
- 
-
       $destination = urlencode($_POST["matrix"]);
       $message = $_POST['name'].$_POST['track']."Your message to customer";
       $message = html_entity_decode($message, ENT_QUOTES, 'utf-8'); 
       $message = urlencode($message);
       
-      $username = urlencode("usernama");
-      $password = urlencode("pass");
+      $username = urlencode("isms_usernama");
+      $password = urlencode("isms_pass");
       $sender_id = urlencode("");
       $type = 1;
 
