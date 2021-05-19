@@ -5,7 +5,6 @@ if (!$_SESSION['admin_id'])
 {
 	header ('Location:index.php');
 }
-
 $sql_admin = "SELECT * FROM admin WHERE admin_id = '".$_SESSION['admin_id']."'";
 if($result_admin = mysqli_query($conn, $sql_admin))
 {	
