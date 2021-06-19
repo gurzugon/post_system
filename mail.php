@@ -48,7 +48,6 @@ if($result_admin = mysqli_query($conn, $sql_admin))
 </head>
 
 <body>
-
     <div id="wrapper">
 
         <!-- Navigation -->
