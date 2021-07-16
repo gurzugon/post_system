@@ -106,8 +106,7 @@ if($result_admin = mysqli_query($conn, $sql_admin))
                     <h1 class="page-header">Mail</h1>
                 </div>
                 <!-- /.col-lg-12 -->
-            </div>
-               
+            </div>     
 <?php
 $sql_storage = "SELECT * FROM customer WHERE id = id ";
 if($result_storage = mysqli_query($conn, $sql_storage))
