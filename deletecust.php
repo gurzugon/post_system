@@ -5,8 +5,7 @@ include ('../config.php');
 	if ($result_delete = mysqli_query($conn, $sql_delete))
 	{
 		echo "<script language=javascript>alert('DELETE SUCCESS');
-		window.location='customer.php';</script>";
-		
+		window.location='customer.php';</script>";	
 	}
 	else
 	{
